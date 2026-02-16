@@ -1,0 +1,1 @@
+{\n  "extends": "./tsconfig.json",\n  "compilerOptions": {\n    "outDir": "./out-tsc/spec",\n    "types": [\n      "jasmine"\n    ]\n  },\n  "include": [\n    "src/**/*.spec.ts",\n    "src/**/*.d.ts"\n  ]\n}
