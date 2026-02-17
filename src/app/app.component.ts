@@ -5,9 +5,6 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  template: `
-    <h1>Angular 21 Standalone 🚀</h1>
-    <router-outlet></router-outlet>
-  `
+  templateUrl: `./app.component.html`,
 })
 export class AppComponent {}
