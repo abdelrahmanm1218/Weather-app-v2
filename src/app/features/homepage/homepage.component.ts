@@ -5,9 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   selector: 'app-homepage',
   imports: [],
-  template: `
-    <nav style="padding: 10px; background: #eee;">
-    </nav>
-  `
+  templateUrl: `./homepage.component.html`,
+  stylesUrls: [],
 })
 export class HomepageComponent {}
