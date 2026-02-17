@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   selector: 'app-homepage',
   imports: [],
   templateUrl: `./homepage.component.html`,
-  stylesUrls: [],
+  styleUrls: [],
 })
 export class HomepageComponent {}
